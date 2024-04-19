@@ -1,4 +1,4 @@
-db = connect('mongodb://root:example@localhost:27018/proyecto_test?authSource=admin');
+db = connect('mongodb://root:example@localhost:27017/uniLocal_PA?authSource=admin');
 db.clientes.insertMany([
     {
         _id: 'Cliente1',
